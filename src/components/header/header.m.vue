@@ -1,7 +1,7 @@
 <template>
   <div class="header-m" ref="headerDom">
     <div class="top">
-      <img src="../../assets/images/logo-white.png">
+      <img src="../../assets/images/site.png">
       <p v-if="showTip===true" class="tip">当前节点版本过低</p>
       <i @click="show = !show;" class="iconfont icon-caidan"></i>
     </div>
